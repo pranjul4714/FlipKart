@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://flip-kart-pied.vercel.app';
+const url = 'http://localhost:8000' || 'https://flip-kart-pied.vercel.app';
 
 export const authenticateSignup = async (user) => {
     try {
